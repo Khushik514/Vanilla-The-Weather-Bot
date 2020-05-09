@@ -24,6 +24,13 @@
     float:left;
     padding-right:10px;
 }
+body{
+    margin:auto;
+}
+h2{
+    margin: auto;
+    padding-bottom: 10px;
+}
 .macro{
     margin-top:5px;width:85%;border-radius:5px;padding:5px;display:flex;
 }
@@ -35,7 +42,7 @@
 }
 .frame{
     background:#e0e0de;
-    height:450px;
+    height:582px;
     overflow:hidden;
     padding:0;
 }
@@ -58,6 +65,7 @@ ul {
     flex-direction: column;
     top:0;
     overflow-y:scroll;
+    border: 3px solid gray;
 }
 .msj:before{
     width: 0;
@@ -81,6 +89,12 @@ ul {
     border-width: 13px 13px 0 0;
     border-color: whitesmoke transparent transparent transparent;           
 }  
+.gly{
+    padding: 10px 10px;
+    margin:auto;
+    border-radius: 50%;
+    background-color: white;
+}
 input:focus{
     outline: none;
 }        
@@ -96,3 +110,7 @@ input:focus{
 :-moz-placeholder { /* Firefox 18- */
     color: #d4d4d4;
 }  
+#bottom{
+padding:10px 15px;
+top: 515px;
+}
