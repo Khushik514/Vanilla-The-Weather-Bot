@@ -17,6 +17,14 @@ function formatAMPM(date) {
     return strTime;
 }
 
+function myFunction() {
+  var element = document.body;
+      element.classList.toggle("dark-mode");
+     var element1 = document.getElementById("box");
+      element1.classList.toggle("b-dr");
+    
+}
+
 //-- No use time. It is a javaScript effect.
 function insertChat(who, text, time) {
     if (time === undefined) {
